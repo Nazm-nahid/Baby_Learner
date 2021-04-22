@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical"
+android:layout_gravity="center"
+android:background="@drawable/background"
+    >
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/mytoolbar2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:title="Say the Number"
+    app:titleMarginStart="40dp"
+    app:logo="@drawable/menu"
+    />
+
+
+<Button
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:text="1"
+    android:id="@+id/buttonid2"
+    android:layout_gravity="center"
+    android:textAllCaps="false"
+
+    android:layout_margin="200dp"
+    android:background="@drawable/button_red"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:textColor="@color/orrange"
+    android:textStyle="bold"
+    android:textSize="100dp"
+
+    />
+</LinearLayout>
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--xmlns:appj="http://schemas.android.com/apk/res-auto"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--tools:context=".activity_two"-->
+<!--android:id="@+id/activity_two"-->
+<!--android:orientation="horizontal"-->
+<!--android:background="@drawable/background"-->
+<!--    >-->
+
+<!--<androidx.appcompat.widget.Toolbar-->
+<!--    android:id="@+id/mytoolbar2"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:background="?attr/colorPrimary"-->
+<!--    android:minHeight="?attr/actionBarSize"-->
+<!--    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--    appj:title="Second Activity"-->
+<!--    appj:titleMarginStart="40dp"-->
+<!--    appj:logo="@drawable/menu"-->
+<!--    />-->
+<!--<TextView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:id="@+id/secondtext"-->
+<!--    android:layout_marginLeft="-300dp"-->
+<!--    android:layout_marginTop="250dp"-->
+<!--    android:textStyle="bold"-->
+<!--    android:textSize="20sp"-->
+<!--    android:textColor="@color/white"-->
+<!--    />-->
+
+<!--</LinearLayout>-->
